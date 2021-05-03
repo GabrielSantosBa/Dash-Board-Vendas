@@ -1,11 +1,11 @@
-
+ 
 
 
 
 function App() {
  return(
   <div>
-    <h1>olá Mundo</h1>
+    <h1 className="text-primary">olá Mundo</h1>
   </div>
 
  );
