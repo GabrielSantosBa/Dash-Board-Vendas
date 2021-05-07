@@ -33,11 +33,12 @@ function App() {
           <h2 className="text-primary text-center">Todas as vendas</h2>
         </div>
         <DataTable />
+        <Footer />
       </div>
 
 
 
-      <Footer />
+     
     </>
   );
 
