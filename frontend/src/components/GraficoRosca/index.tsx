@@ -20,7 +20,7 @@ useEffect(()=> {
     .then(response => {
         const data = response.data as VendaSoma[];
         const myLabels = data.map(x => x.sellerName);
-        const mySeries = data.map(x => x.sum);
+        const mySeries = data.map(x => x.soma);
 
         setChartData ({ labels: myLabels, series: mySeries });
     });

@@ -1,6 +1,12 @@
 export type VendaSoma = {
 
     sellerName: string;
-    sum: number;
+    soma: number;
+}
+
+export type SaleSuccess ={
+    sellerName: string;
+    visited: number;
+    deals: number;
 }
 
