@@ -43,7 +43,7 @@ useEffect(()=> {
     .then(response => {
         const data = response.data as SaleSuccess[];
         const myLabels = data.map(x => x.sellerName);
-        const mySeries = data.map(x => round(100.0 * x.deals / x.visited, 1));
+        const mySeries = data.map(x => round(100.0 * x.negociosFechados / x.visitas, 1));
 
         setChartData ({
   

@@ -32,15 +32,13 @@ public class SaleController {
 	@GetMapping(value = "/soma-por-vendedor")
 	public ResponseEntity<List<SumSaleSellerDTO>> somaVendasPorVendedor(){		
 		List<SumSaleSellerDTO> listaVendasSomadas = service.somaVendasPorVendedor();		
-		return ResponseEntity.ok(listaVendasSomadas);
-		
+		return ResponseEntity.ok(listaVendasSomadas);		
 	}	
 	
 	@GetMapping(value = "/sucesso-por-vendedor")
 	public ResponseEntity<List<SucessoVendasVendedorDTO>> sucessoVendasVendedorDTO(){		
 		List<SucessoVendasVendedorDTO> listaSucessoVendasVendedor = service.sucessoVendasPorVendedor();	
-		return ResponseEntity.ok(listaSucessoVendasVendedor);
-		
+		return ResponseEntity.ok(listaSucessoVendasVendedor);		
 	}
 	
 	

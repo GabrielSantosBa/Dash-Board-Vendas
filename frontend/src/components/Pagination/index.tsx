@@ -1,0 +1,32 @@
+import { SalePage } from "types/sales";
+
+
+type Props ={
+    page: SalePage;
+    onePageChange: Function;
+}
+const Pagination = ({page, onePageChange } : Props) => {
+
+
+    return (
+        <div className="row d-flex justify-content-center">
+            <nav>
+                <ul className="pagination">
+                    <li className={`page-item ${page.first ? 'disable' : ''}`}>
+                        <button className="page-link" onClick={() => onePageChange(page.number - 1)}>Anterior</button>
+                    </li>
+                    <li className="page-item disabled">
+                        <span className="page-link">{page.number + 1 }</span>
+                    </li>
+                    <li className={`page-item ${page.last ? 'disable' : ''}`}>
+                        <button className="page-link" onClick={() => onePageChange(page.number + 1)}>Próxima</button>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+    )
+
+}
+
+export default Pagination;

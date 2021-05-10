@@ -12,8 +12,7 @@ public class SucessoVendasVendedorDTO implements Serializable {
 	private Long visitas;
 	private Long negociosFechados;
 
-	public SucessoVendasVendedorDTO() {
-	}
+	public SucessoVendasVendedorDTO() {}
 
 	public SucessoVendasVendedorDTO(Seller seller, Long visitas, Long negociosFechados) {
 		this.sellerName = seller.getName();
