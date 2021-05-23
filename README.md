@@ -1,24 +1,22 @@
 <h1 align="center">
-    <img src="https://ik.imagekit.io/n07nbjzer4n/logo-marca-sm_Cob6lX38O.svg">
+    <img src="https://github.com/GabrielSantosBa/Dash-Board-Vendas/blob/master/Ds_Vendas.gif">
 </h1>
 
 <h1 align="center">
-    <img src="https://ik.imagekit.io/n07nbjzer4n/Myia0ICDKf_14rPjJyg7.gif">
+    <img src="https://github.com/GabrielSantosBa/Dash-Board-Vendas/blob/master/Ds_Vendas.gif">
 </h1>
 
-<h3 align="center">
-    <a href="https://nacaatinga.com.br/">Acessar o Blog</a>
-</h3>
+
 
 # Indice
 
 * [Sobre](#-sobre)
 * [Tecnologias Utilizadas](#-tecnologias-utilizadas)
-<!--* [Como baixar o projeto](#-Como-baixar-e-usar-o-projeto)-->
+* [Como baixar o projeto](#-Como-baixar-e-usar-o-projeto)
 
 ## 🔖&nbsp; Sobre
 
-O **NaCaatinga** é um blog criado para tratar do bioma Caatinga, dando enfase as belezas encontradas nesse bioma na cidade de Milagres-BA.
+O **DashVendas** e uma aplicação que consiste em exibir um dashboard a partir de dados fornecidos por um back end construído com Spring Boot.
 
 ---
 
@@ -26,10 +24,12 @@ O **NaCaatinga** é um blog criado para tratar do bioma Caatinga, dando enfase a
 
 O projeto foi desenvolvido utilizando as seguintes tecnologias
 
-* [Php](https://www.php.net/manual/pt_BR/index.php)
-* [CMS Wordpress](https://developer.wordpress.org/reference/)
-* [HTML5](https://www.w3c.br/pub/Cursos/CursoHTML5/html5-web.pdf)
-* [CSS3](https://www.w3c.br/divulgacao/guiasreferencia/css2/)
+* [Spring - Framework Java](https://docs.spring.io/spring-framework/docs/current/reference/html/)
+* [React - biblioteca JavaScript declarativa](https://pt-br.reactjs.org/)
+* [Bootstrap - Framework CSS](https://getbootstrap.com/)
+* [PostgreSQL - Banco De Dados Relacional](https://www.postgresql.org/)
+* [Heroku - PaaS, Plataforma como serviço](https://devcenter.heroku.com/categories/reference)
+* [JDK Oracle - Kit de Desenvolvimento Java- Vers 1.8](https://www.oracle.com/br/java/technologies/javase-downloads.html)
 
 ---
 
@@ -59,4 +59,4 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
 <!-- --- -->
 <!--<i>Ele disponibilizou a base de dados, vou Hackear... Nem Perca seu tempo eu já troquei todos os dados de acesso! hahaha</>-->
 
-Desenvolvido 💜 por Gabriel Santos
+Desenvolvido com 💜 por Gabriel Santos
