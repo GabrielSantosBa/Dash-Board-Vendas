@@ -14,11 +14,11 @@ function Dashboard() {
 
                 <div className="row">
                     <div className="col-sm-6">
-                        <h5 className="text-center text-secondary">Porcentagem de Vendas ( % )</h5>
+                        <h5 className="text-center text-secondary">Grafico de Barras ( % )</h5>
                         <BarChart />
                     </div>
                     <div className="col-sm-6">
-                        <h5 className="text-center text-secondary">Porcentagem de Vendas ( % )</h5>
+                        <h5 className="text-center text-secondary">Grafico de Rosca ( % )</h5>
                         <GraficoRosca />
                     </div>
                 </div>
