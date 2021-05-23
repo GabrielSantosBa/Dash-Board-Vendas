@@ -33,7 +33,7 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
 
 ---
 
-<!--* 🗂 Como baixar e usar o projeto*-->
+
 
 <!--### 📋 Pré-requisitos-->
 
