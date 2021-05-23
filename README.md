@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img src="https://github.com/GabrielSantosBa/Dash-Board-Vendas/blob/master/Ds_Vendas.gif">
+    <img src="https://github.com/GabrielSantosBa/Dash-Board-Vendas/blob/master/frontend/src/assets/img/ds-dark.svg">
 </h1>
 
 <h1 align="center">
@@ -33,7 +33,7 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
 
 ---
 
-<!--### 🗂 Como baixar e usar o projeto-->
+<!--* 🗂 Como baixar e usar o projeto*-->
 
 <!--### 📋 Pré-requisitos-->
 
